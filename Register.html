@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Register.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <title>Register</title>
+
+    <style>
+    	.auth-page-wrapper {
+	background-image:url('images/green background.jpeg'); 
+	background-size:cover;
+}
+
+    </style>
+</head>
+
+<body>
+	<div  class="container-fluid  auth-page-wrapper">
+		<a href="/" class="router-link-active"></a>
+		<div class="row  justify-content-center">
+			  <div  class="col-sm-6" style='margin-left:20%; margin-right: 20%;'>
+					<div  class="form-group text-center">
+						<div class="auth-page__content">
+					 		<div class="auth-page__form">
+					 			<form  method="POST" class="form-horizontal login-form">					 		
+					 		 		<label >
+					 		 			<strong > I am a: </strong>
+					 		 		</label>
+					 		 		<br >
+					 		 		<div  class="custom-radio-parent">
+					 		 			 <div class="custom-control custom-radio">
+					 		 			 	<input  type="radio" id="STUDENT" name="account_type" class="custom-control-input" value="1">
+					 		 			 		<label  for="STUDENT" class="custom-control-label">STUDENT</label>
+					 		 			 		</div>
+					 		 			 <div  class="custom-control custom-radio">
+					 		 			 	<input type="radio" id="NYSC" name="account_type" class="custom-control-input" value="2">
+					 		 			 	<label  for="NYSC" class="custom-control-label">NYSC</label>
+					 		 			 </div>
+					 		 			 	<div class="custom-control custom-radio">
+					 		 			 		<input type="radio" id="LANDLORD" name="account_type" class="custom-control-input" value="3">
+					 		 			 		 <label for="LANDLORD" class="custom-control-label">LANDLORD</label>
+					 		 			 	</div>
+					 		 		</div>
+					 		 </div>
+					 		 <div class="form-row">
+					 		 		 <div data-v-55ddeedf="" class="col-sm-6">
+					 		 		 		<div  class="form-group">
+					 		 		 			<input  data-vv-as="first name" type="text" placeholder="First Name" name="firstName" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 		</div>
+					 		 		 	</div>
+					 		 		 	 <div class="col-sm-6">
+					 		 		 	 	<div class="form-group">
+					 		 		 	 		<input  data-vv-as="last name" type="text" placeholder="Last Name" name="lastName" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 	 	</div>
+					 		 		 	 </div>
+					 		 		 	</div> 
+					 		 		 	<div class="form-row">
+					 		 		 		<div  class="col-sm-6">
+					 		 		 			<div  class="form-group">
+					 		 		 				<input type="email" placeholder="Email Address" name="email" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 			</div>
+					 		 		 		</div>
+					 		 		 		 <div  class="col-sm-6">
+					 		 		 		 	<div class="form-group">
+					 		 		 		 		<input  data-vv-as="phone number" type="phone" placeholder="Phone Number" name="phone" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 		 	</div>
+					 		 		 		 </div>
+					 		 		 		</div> 
+					 		 		 		<div class="form-row">
+					 		 		 			<div class="col-sm-6 col-xs-6">
+					 		 		 				<div class="form-row">
+					 		 		 					<div  class="col-sm-4 col-xs-4">
+					 		 		 						<div  class="form-group">
+					 		 		 							<input  data-vv-as="day of birth" type="text" placeholder="DD" name="days" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 						</div>
+					 		 		 					</div> 
+					 		 		 					<div class="col-sm-4 col-xs-4">
+					 		 		 						<div  class="form-group">
+					 		 		 							<input data-vv-as="month of birth" type="text" placeholder="MM" name="month" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 						</div>
+					 		 		 					</div>
+					 		 		 					 <div  class="col-sm-4 col-xs-4">
+					 		 		 					 	<div  class="form-group">
+					 		 		 					 		<input  data-vv-as="year of birth" type="text" placeholder="YYYY" name="year" class="form-control" aria-required="true" aria-invalid="true">
+					 		 		 					 	</div>
+					 		 		 					 </div>
+					 		 		 					</div>
+					 		 		 				</div> 
+					 		 		 				<div  class="col-sm-6 col-xs-6">
+					 		 		 					<div  class="form-group">
+					 		 		 						<select  name="gender" class="form-control" aria-required="true" aria-invalid="true">
+					 		 		 							<option class='selected'>Select Gender</option>
+					 		 		 							<option  value="Female">Female</option> <option  value="Male">Male</option>
+					 		 		 						</select> 
+					 		 		 					</div>
+					 		 		 				</div>
+					 		 		 			</div> 
+					 		 		 			<div  class="form-row">
+					 		 		 				<div  class="col-sm-6">
+					 		 		 					<div class="form-group">
+					 		 		 						<input  type="password" placeholder="Password" name="password" class="form-control" aria-required="true" aria-invalid="true"> 
+					 		 		 					</div>
+					 		 		 				</div> 
+					 		 		 				<div  class="col-sm-6">
+					 		 		 					<div  class="form-group">
+					 		 		 						<input  data-vv-as="confirm password" type="password" placeholder="Confirm Password" name="confirm_password" class="form-control" aria-required="true" aria-invalid="true">
+					 		 		 					</div>
+					 		 		 				</div>
+					 		 		 			</div> 
+					 		 		 			<div  class="form-row">
+					 		 		 				<div  class="col-sm-12">
+					 		 		 					<div class="form-group">
+					 		 		 						<buttontype="submit" class="btn btn-primary btn-primary--green btn-block">Register</button>
+					 		 		 					</div>
+					 		 		 				</div>
+					 		 		 			</div>
+					 		 		 		</form> 
+					 		 		 		<div  class="row"><div class="col-sm-12"><p class="text-center">
+
+                                                  Already have a myPadi account?
+
+                                                 <a  href="/login" class="has-green-link">Log In</a>
+                                              </p>
+                                         </div>
+                                      </div> 
+         			 	<div class="row">
+          				<div class="col-sm-12">
+          					<div class="form-group">
+          					 <a class="no-text-decoration">
+          					<div>
+          					   <button class="btn btn-primary btn-lg btn-block social-facebook auth-input">
+                              Sign Up With Facebook
+                              </button>
+                         </div>
+                           </a>
+                       </div>
+                     </div>
+                 </div> 
+        <div class="row">
+    	   <div class="col-sm-12">
+    		    <div class="form-group">
+    			   <a class="no-text-decoration">
+    				<div>
+    					<button  class="btn btn-danger btn-lg btn-block social-linkedin auth-input">
+                      Sign Up With Google Plus
+                      </button>
+                  </div>
+                   </a>
+                </div>
+             </div>
+           </div>
+         </div>
+     </div>
+ </div>
+</div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

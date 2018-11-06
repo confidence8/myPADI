@@ -1,0 +1,139 @@
+
+#wrapnav{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bestroom.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: relative;
+	
+	}    
+.look{
+	color:white;
+	margin:120px 300px 0px 300px;
+	padding: 10px;
+	
+}
+.heed{
+	color:;
+	margin:50px 0px 0px 200px;
+	padding: 5px;
+
+
+}
+li a{
+	color: white;
+}
+h4 a{
+	color: green;
+}
+#cloud{
+	background-image:url("../images/cloud2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#element {
+    color: green;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 40px 0px 0px 130px; 
+}
+.sear{
+	color:white;
+	margin:10px 400px 10px opx;
+	
+}
+
+	
+.text-center{
+	align-content: center;
+}
+img{
+	padding:20px;
+	margin:auto;
+	vertical-align: middle;
+	border-style: none;
+}
+.placeholder{
+	font-size: 20%;
+	margin-left: 20px;
+	margin-right: 80px;
+}
+.container2 {
+    position: relative;
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+.jumb{
+	background-image: url("../images/my image.png");
+	height: 70vh;
+	background-repeat:no-repeat;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	color: white;
+}
+.row 1{
+
+}
+.explore-container{
+	padding: 3rem!important;
+	padding:bottom: 5rem!important;
+
+}
+.explore-link-title{
+	display: -webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:nowrap;
+	flex-wrap:nowrap;
+}
+.explore-title{
+	font-size: 17px;
+	line-height: 21px;
+	color:#484848;
+	padding-left: 10px;
+	padding-right: 4rem;
+	padding-top: 2,5rem;
+
+}
+.explore-card{
+	padding-right: 2rem;
+}
+.explore-content-wrapper{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+}
+.miss{
+   list-style-type: none;
+   margin-left: 0px;
+   color:grey!important;
+
+}
+/*
+.list-your-property-banner
+    {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bestroom.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    position: relative;
+	
+	}*/
+
+
+
+
+
+
+
+
+
